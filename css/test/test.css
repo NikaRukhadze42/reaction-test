@@ -1,0 +1,103 @@
+#game-section {
+  width: 100%;
+  background-color: #f0f0f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 754px;
+}
+
+#game-section .container {
+  width: 1500px;
+  height: 100%;
+  background-color: #f0f0f0;
+  margin: auto;
+}
+
+#game-section .container #content-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#game-section .container #content-wrapper #info-bar {
+  width: 70%;
+  height: 60px;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+
+#game-section .container #content-wrapper #info-bar ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#game-section .container #content-wrapper #info-bar ul li {
+  width: 20%;
+  border-right: 1px solid black;
+  color: black;
+  font-size: 20px;
+  overflow: hidden;
+}
+
+#game-section .container #content-wrapper #info-bar ul #retry {
+  border-right: none;
+}
+
+#game-section .container #content-wrapper #info-bar ul #retry a {
+  text-decoration: none;
+  color: black;
+}
+
+#game-section .container #content-wrapper #game-content-wrapper {
+  width: 100%;
+  height: 88%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#game-section .container #content-wrapper #game-content-wrapper .game-item {
+  width: 19%;
+  height: 20%;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+#game-section .container #content-wrapper #game-content-wrapper .game-item-first-row {
+  border-top: 1px solid black;
+}
+/*# sourceMappingURL=test.css.map */

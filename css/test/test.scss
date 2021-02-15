@@ -1,0 +1,82 @@
+@import '../modules/colors.scss';
+
+#game-section{
+    width: 100%;
+    background-color: $bColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 754px;
+
+    .container{
+        width: 1500px;
+        height: 100%;
+        background-color: $bColor;
+        margin: auto;
+
+        #content-wrapper{
+            width: 100%;
+            height: 100%;
+            overflow-y: hidden;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            #info-bar{
+                width: 70%;
+                height: 60px;
+                margin-top: 10px;
+                border: 1px solid black;
+
+                ul{
+                    display: inline-flex;
+                    list-style: none;
+                    justify-content: space-between;
+                    text-align: center;
+                    align-items: center;
+                    width: 100%;
+                    height: 100%;
+
+                    li{
+                        width: 20%;
+                        border-right: 1px solid black;
+                        color: black;
+                        font-size: 20px;
+                        overflow: hidden;
+                    }
+
+                    #retry{
+                        border-right: none;
+
+                        a{
+                            text-decoration: none;
+                            color: black;
+                        }
+                    }
+                }
+            }
+
+            #game-content-wrapper{
+                width: 100%;
+                height: 88%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+    
+                .game-item{
+                    width: 19%;
+                    height: 20%;
+                    border-bottom: 1px solid black;
+                    cursor: pointer;
+                }
+
+                .game-item-first-row{
+                    border-top: 1px solid black;
+                }
+            }
+        }
+
+    }
+
+}

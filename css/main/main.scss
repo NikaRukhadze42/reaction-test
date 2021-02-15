@@ -1,0 +1,129 @@
+@import '../modules/colors.scss';
+
+#main-section{
+    width: 100%;
+    background-color: $bColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 750px;
+
+    .container{
+        width: 1300px;
+        height: 80%;
+
+        #main-wrapper{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+
+            h1{
+                display: block;
+                width: 100%;
+                text-align: center;
+                color: black;
+                font-size: 43px;
+            }
+
+            #main-content-wrapper{
+                width: 40%;
+                height: 50%;
+                background-color: $mColor;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                #main-content{
+                    width: 80%;
+                    height: 65%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+
+                    .main-content-item-wrapper{
+                        width: 80%;
+                        height: 50px;
+                        padding: 10px 10px;
+                        display: flex;
+                        justify-content: space-between;
+                        position: relative;
+
+                        input{
+                            width: 65%;
+                            height: 100%;
+                            margin: auto;
+                            text-align: center;
+                            transition: 0.3s;
+                            border: 1px solid $sColor;
+                            font-size: 22px;
+                            transition: 0.4s;
+                        }
+
+                        input:hover{
+                            border: 1px solid $mColor;
+                        }
+
+                        button{
+                            width: 40%;
+                            border: 1px solid $sColor;
+                            cursor: pointer;
+                            transition: 0.4s;
+                            display: flex;
+                            margin: auto;
+
+                            a{
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+                                text-decoration: none;
+                                color: black;
+                                font-size: 15x;
+                                line-height: 45px;
+                            }
+                        }
+
+                        button:hover{
+                            border: 1px solid $mColor;
+                        }
+
+                        .info{
+                            position: absolute;
+                            width: 240px;
+                            height: 120px;
+                            padding: 8px;
+                            background-color: rgba(210, 204, 216, 0.5);
+                            border: 1px solid grey;
+                            top: 64px;
+                            text-align: center;
+                            font-size: 15px;
+                            opacity: 0;
+                            transition: 0.7s ease-in-out;
+                        }
+
+                        .standard-btn-info{
+                            left: 131px;
+                        }
+
+                        .time-btn-info{
+                            left: -34px;
+                        }
+
+                        .standard-btn:hover + .standard-btn-info{
+                            opacity: 1;
+                        }
+
+                        .time-btn:hover + .time-btn-info{
+                            opacity: 1;
+                        }
+                    }
+                }
+                
+            }
+
+        }
+
+    }
+}

@@ -1,0 +1,159 @@
+#main-section {
+  width: 100%;
+  background-color: #f0f0f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 750px;
+}
+
+#main-section .container {
+  width: 1300px;
+  height: 80%;
+}
+
+#main-section .container #main-wrapper {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main-section .container #main-wrapper h1 {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 43px;
+}
+
+#main-section .container #main-wrapper #main-content-wrapper {
+  width: 40%;
+  height: 50%;
+  background-color: #d1ede9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main-section .container #main-wrapper #main-content-wrapper #main-content {
+  width: 80%;
+  height: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main-section .container #main-wrapper #main-content-wrapper #main-content .main-content-item-wrapper {
+  width: 80%;
+  height: 50px;
+  padding: 10px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+#main-section .container #main-wrapper #main-content-wrapper #main-content .main-content-item-wrapper input {
+  width: 65%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border: 1px solid #bfbfbf;
+  font-size: 22px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#main-section .container #main-wrapper #main-content-wrapper #main-content .main-content-item-wrapper input:hover {
+  border: 1px solid #d1ede9;
+}
+
+#main-section .container #main-wrapper #main-content-wrapper #main-content .main-content-item-wrapper button {
+  width: 40%;
+  border: 1px solid #bfbfbf;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+#main-section .container #main-wrapper #main-content-wrapper #main-content .main-content-item-wrapper button a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: black;
+  font-size: 15x;
+  line-height: 45px;
+}
+
+#main-section .container #main-wrapper #main-content-wrapper #main-content .main-content-item-wrapper button:hover {
+  border: 1px solid #d1ede9;
+}
+
+#main-section .container #main-wrapper #main-content-wrapper #main-content .main-content-item-wrapper .info {
+  position: absolute;
+  width: 240px;
+  height: 120px;
+  padding: 8px;
+  background-color: rgba(210, 204, 216, 0.5);
+  border: 1px solid grey;
+  top: 64px;
+  text-align: center;
+  font-size: 15px;
+  opacity: 0;
+  -webkit-transition: 0.7s ease-in-out;
+  transition: 0.7s ease-in-out;
+}
+
+#main-section .container #main-wrapper #main-content-wrapper #main-content .main-content-item-wrapper .standard-btn-info {
+  left: 131px;
+}
+
+#main-section .container #main-wrapper #main-content-wrapper #main-content .main-content-item-wrapper .time-btn-info {
+  left: -34px;
+}
+
+#main-section .container #main-wrapper #main-content-wrapper #main-content .main-content-item-wrapper .standard-btn:hover + .standard-btn-info {
+  opacity: 1;
+}
+
+#main-section .container #main-wrapper #main-content-wrapper #main-content .main-content-item-wrapper .time-btn:hover + .time-btn-info {
+  opacity: 1;
+}
+/*# sourceMappingURL=main.css.map */
